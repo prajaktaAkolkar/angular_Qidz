@@ -13,6 +13,8 @@ import { Slider1Component } from './slider/slider1/slider1.component';
 import { Slider2Component } from './slider/slider2/slider2.component';
 import { Slider3Component } from './slider/slider3/slider3.component';
 import { Slider4Component } from './slider/slider4/slider4.component';
+import { DownloadAppComponent } from './download-app/download-app.component';
+import { CreateFamilyComponent } from './create-family/create-family.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { Slider4Component } from './slider/slider4/slider4.component';
     Slider1Component,
     Slider2Component,
     Slider3Component,
-    Slider4Component
+    Slider4Component,
+    DownloadAppComponent,
+    CreateFamilyComponent
   ],
   imports: [
     BrowserModule,
