@@ -8,16 +8,24 @@
          <div class="col-md-12">
           <div class="ad_banner">
             <div class="ad_banner_inner">
-     <h1>here</h1>            
-
+<!-- 
                <div class="ad-banner owl-carousel">
                   
                   <div class="ad_image"><a href="#"><img src="../../../assets/img/banner-ad/banner_01.jpg" alt="ad_01"></a></div>
                   <div class="ad_image"><a href="#"><img src="../../../assets/img/banner-ad/banner_02.jpg" alt="ad_02"></a></div>
                   <div class="ad_image"><a href="#"><img src="../../../assets/img/banner-ad/banner_03.jpg" alt="ad_03"></a></div>
                </div>
-                 
-             
+                  -->
+                  <owl-carousel-o [options]="bannerSlider">
+    
+                    <ng-template carouselSlide>
+                      <img src="../../../assets/img/banner-ad/banner_01.jpg" alt="ad_01">
+                    </ng-template>  
+                    <ng-template carouselSlide> <img src="../../../assets/img/banner-ad/banner_01.jpg" alt="ad_01"></ng-template>  
+                    <ng-template carouselSlide> <img src="../../../assets/img/banner-ad/banner_02.jpg" alt="ad_01"></ng-template>  
+                    <ng-template carouselSlide> <img src="../../../assets/img/banner-ad/banner_03.jpg" alt="ad_01"></ng-template>  
+                   
+                  </owl-carousel-o>
             </div>
           </div>
          </div>

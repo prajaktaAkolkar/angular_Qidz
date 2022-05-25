@@ -1,27 +1,24 @@
 import { Component, OnInit } from '@angular/core';
-import { OwlOptions } from 'ngx-owl-carousel-o';
+import {OwlOptions} from 'ngx-owl-carousel-o';
 @Component({
-  selector: 'app-slider3',
-  templateUrl: './slider3.component.html',
-  styleUrls: ['./slider3.component.css']
+  selector: 'app-test-slider',
+  templateUrl: './test-slider.component.html',
+  styleUrls: ['./test-slider.component.css']
 })
-export class Slider3Component implements OnInit {
+export class TestSliderComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-
+   
   bannerSlider: OwlOptions = {
     loop: true,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
     dots: false,
-    autoplay:true,
-    autoplayTimeout:1000,
-    autoplayHoverPause:true,
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
@@ -35,7 +32,7 @@ export class Slider3Component implements OnInit {
         items: 3
       },
       940: {
-        items: 4
+        items: 3
       }
     },
     nav: true

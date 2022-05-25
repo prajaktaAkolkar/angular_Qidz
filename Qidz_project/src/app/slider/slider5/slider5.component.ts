@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 @Component({
-  selector: 'app-slider3',
-  templateUrl: './slider3.component.html',
-  styleUrls: ['./slider3.component.css']
+  selector: 'app-slider5',
+  templateUrl: './slider5.component.html',
+  styleUrls: ['./slider5.component.css']
 })
-export class Slider3Component implements OnInit {
+export class Slider5Component implements OnInit {
 
   constructor() { }
 
@@ -19,10 +19,10 @@ export class Slider3Component implements OnInit {
     touchDrag: true,
     pullDrag: true,
     dots: false,
+    navSpeed: 700,
     autoplay:true,
     autoplayTimeout:1000,
     autoplayHoverPause:true,
-    navSpeed: 700,
     navText: ['', ''],
     responsive: {
       0: {

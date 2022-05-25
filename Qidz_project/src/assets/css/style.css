@@ -7,8 +7,8 @@
 /*--------------------------------------------------------------
 # Fonts Css 
 --------------------------------------------------------------*/
-@font-face{font-family:'Segoe UI' sans-serif;src:url('../../assets/fonts/segoeui.ttf') format('ttf'), url('../../assets/fonts/Segoeui.ttf') format('ttf');font-weight:normal;font-style:normal;font-display:swap;}
 /* @font-face{font-family:'Segoe UI' sans-serif;src:url('../fonts/segoeui.ttf') format('ttf'), url('../fonts/Segoeui.ttf') format('ttf');font-weight:normal;font-style:normal;font-display:swap;} */
+/* @font-face{font-family:'Segoe UI' sans-serif;src:url('../fonts/segoeui.ttf') format('ttf'), url('../../assets/fonts/Segoeui.ttf') format('ttf');font-weight:normal;font-style:normal;font-display:swap;} */
 /*-----------------------------------------------------------
 @Media Query Css Start
 ------------------------------------------------------------*/

@@ -15,7 +15,13 @@ import { Slider3Component } from './slider/slider3/slider3.component';
 import { Slider4Component } from './slider/slider4/slider4.component';
 import { DownloadAppComponent } from './download-app/download-app.component';
 import { CreateFamilyComponent } from './create-family/create-family.component';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { TestSliderComponent } from './slider/test-slider/test-slider.component';
+import { Slider5Component } from './slider/slider5/slider5.component';
+import { Slider6Component } from './slider/slider6/slider6.component';
+import { Slider7Component } from './slider/slider7/slider7.component';
+import { TravelSecComponent } from './travel-sec/travel-sec.component';
+import { HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,12 +36,20 @@ import { CreateFamilyComponent } from './create-family/create-family.component';
     Slider3Component,
     Slider4Component,
     DownloadAppComponent,
-    CreateFamilyComponent
+    CreateFamilyComponent,
+    TestSliderComponent,
+    Slider5Component,
+    Slider6Component,
+    Slider7Component,
+    TravelSecComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarouselModule
+    CarouselModule,
+    BrowserAnimationsModule,
+    CarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
