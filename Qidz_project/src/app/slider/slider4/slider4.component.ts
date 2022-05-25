@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-slider4',
@@ -9,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class Slider4Component implements OnInit {
 
-  constructor( private http:HttpClient) { }
+  constructor( ) { }
 
   ngOnInit(): void {
   }
