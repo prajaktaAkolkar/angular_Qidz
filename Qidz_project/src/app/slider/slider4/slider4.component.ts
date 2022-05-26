@@ -1,5 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import JData from './data.json';
+
+interface Sdata {
+  "id" :Number,
+    "img" : any ,
+    "code": any,
+    "name": String,
+    "text": string
+}
 
 @Component({
   selector: 'app-slider4',
@@ -9,6 +18,8 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class Slider4Component implements OnInit {
 
   constructor( ) { }
+
+ sliderData :  Sdata[] = JData;
 
   ngOnInit(): void {
   }

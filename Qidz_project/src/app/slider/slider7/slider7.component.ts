@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import sData from '../slider4/data.json';
 @Component({
   selector: 'app-slider7',
   templateUrl: './slider7.component.html',
@@ -8,7 +9,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class Slider7Component implements OnInit {
 
   constructor() { }
-
+  sliderVal = sData;
   ngOnInit(): void {
   }
 

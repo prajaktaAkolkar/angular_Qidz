@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "img": "assets/img/banner-ad/image_01.jpg",
+      "code": "AED 65",
+      "name": "What we learn from cooking together with children",
+      "text": "The Dubai Mall"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/banner-ad/image_02.jpg",
+      "code": "AED 66",
+      "name": "Kidzania Back to school offer In Dubai",
+      "text": "The Dubai Mall"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/banner-ad/image_03.jpg",
+      "code": "AED 67",
+      "name": "Pumpkin cooking party with children",
+      "text": "The Dubai Mall"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/banner-ad/image_04.jpg",
+      "code": "AED 68",
+      "name": "Dubai events in july: DSS D3 Restaurant",
+      "text": "The Dubai Mall"
+    }
+  ]

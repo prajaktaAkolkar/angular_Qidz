@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule ,routecompt } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopHeaderComponent } from './top-header/top-header.component';
 import { QidzHeaderComponent } from './qidz-header/qidz-header.component';
@@ -22,6 +22,8 @@ import { Slider6Component } from './slider/slider6/slider6.component';
 import { Slider7Component } from './slider/slider7/slider7.component';
 import { TravelSecComponent } from './travel-sec/travel-sec.component';
 import { HttpClientModule} from '@angular/common/http';
+import { EventDetailsComponent } from './event-details/event-details.component';
+import { EventComponent } from './event-details/event/event.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +43,10 @@ import { HttpClientModule} from '@angular/common/http';
     Slider5Component,
     Slider6Component,
     Slider7Component,
-    TravelSecComponent
+    TravelSecComponent,
+    EventDetailsComponent,
+    routecompt,
+    EventComponent
   ],
   imports: [
     BrowserModule,

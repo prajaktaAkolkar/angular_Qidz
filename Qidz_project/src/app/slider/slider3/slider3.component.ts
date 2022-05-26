@@ -1,5 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import sData from './slider3.json';
+
+interface data {
+  "id": Number,
+  "img": any,
+  "code": any,
+  "name": string,
+  "text": string
+}
+
 @Component({
   selector: 'app-slider3',
   templateUrl: './slider3.component.html',
@@ -8,6 +18,8 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class Slider3Component implements OnInit {
 
   constructor() { }
+
+slider3  = sData;;
 
   ngOnInit(): void {
   }

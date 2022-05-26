@@ -10,18 +10,18 @@
               <h1>Browse By Category</h1>
               <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy</p>
             </div>
-            <owl-carousel-o [options]="bannerSlider">
+            <owl-carousel-o [options]="bannerSlider" >
              <!-- <div class="browse_cat_carousel "> -->
-                <ng-template carouselSlide>
+                <ng-template carouselSlide *ngFor="let val of sliderVal">
                 <div class="event_box browse_desc_box">
                   <div class="events_des_image">
-                  <img src="assets/img/banner-ad/bc_img_01.jpg" alt="ad_01">
+                  <img src={{val.img}} alt="ad_01">
                   </div>
                   <div class="event_description browse_desc">
-                    <h3>What we learn from cooking together with children</h3>
+                    <h3>{{val.name}}</h3>
                     <div class="event_btm_des">
                       <div class="left_section">
-                        <span class="small_text">The Dubai Mall</span>
+                        <span class="small_text">{{val.text}}</span>
                         <div class="review">
                           <ul>
                             <li><i class="fas fa-star"></i></li>
@@ -38,7 +38,7 @@
               </div>
               </ng-template>
                <!-- second box -->
-               <ng-template carouselSlide>
+               <!-- <ng-template carouselSlide>
               <div class="event_box browse_desc_box">
                   <div class="events_des_image">
                   <img src="assets/img/banner-ad/bc_img_02.jpg" alt="ad_02">
@@ -62,9 +62,9 @@
                     </div>
                   </div>
               </div>
-              </ng-template>
+              </ng-template> -->
               <!-- third box -->
-              <ng-template carouselSlide>
+              <!-- <ng-template carouselSlide>
                <div class="event_box browse_desc_box">
                   <div class="events_des_image">
                       
@@ -89,9 +89,9 @@
                     </div>
                   </div>
               </div>
-              </ng-template>
+              </ng-template> -->
               <!-- fourth box -->
-              <ng-template carouselSlide>
+              <!-- <ng-template carouselSlide>
                <div class="event_box browse_desc_box">
                   <div class="events_des_image">
                   <img src="assets/img/banner-ad/bc_img_01.jpg" alt="ad_04">
@@ -115,7 +115,7 @@
                     </div>
                   </div>
               </div>
-              </ng-template>
+              </ng-template> -->
              </owl-carousel-o>
           <!-- </div> -->
             <div class="reveiw_btn text-center"><button type="button">

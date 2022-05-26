@@ -12,17 +12,17 @@
                 </div>
                 <owl-carousel-o [options]="bannerSlider">
                  <!-- <div class="third_event_carousel "> -->
-                    <ng-template carouselSlide>  
+                    <ng-template carouselSlide *ngFor = "let val of slider5">  
                     <div class="event_box">
                       <div class="events_des_image">
-                      <img src="assets/img/banner-ad/image_01.jpg" alt="ad_01">
-                      <div class="event_code">AED 65</div>
+                      <img src={{val.img}} alt="ad_01">
+                      <div class="event_code">{{val.code}}</div>
                       </div>
                       <div class="event_description">
-                        <h3>What we learn from cooking together with children</h3>
+                        <h3>{{val.name}}</h3>
                         <div class="event_btm_des">
                           <div class="left_section">
-                            <span class="small_text">The Dubai Mall</span>
+                            <span class="small_text">{{val.text}}</span>
                             <button type="button" class="btn bn_btn">Book Now!</button>
                           </div>
                           <div class="right_section">
@@ -42,7 +42,7 @@
                   </div>
                   </ng-template>
                    <!-- second box -->
-                   <ng-template carouselSlide>
+                   <!-- <ng-template carouselSlide>
                     <div class="event_box">
                       <div class="events_des_image">
                       <img src="assets/img/banner-ad/image_02.jpg" alt="ad_02">
@@ -70,9 +70,9 @@
                         </div>
                       </div>
                   </div>
-                  </ng-template>
+                  </ng-template> -->
                   <!-- third box -->
-                  <ng-template carouselSlide>
+                  <!-- <ng-template carouselSlide>
                    <div class="event_box">
                       <div class="events_des_image">
                       <img src="assets/img/banner-ad/image_03.jpg" alt="ad_03">
@@ -100,9 +100,9 @@
                         </div>
                       </div>
                   </div>
-                  </ng-template>
+                  </ng-template> -->
                   <!-- fourth box -->
-                  <ng-template carouselSlide>
+                  <!-- <ng-template carouselSlide>
                    <div class="event_box">
                       <div class="events_des_image">
                       <img src="assets/img/banner-ad/image_04.jpg" alt="ad_04">
@@ -130,7 +130,7 @@
                         </div>
                       </div>
                   </div>
-                  </ng-template>
+                  </ng-template> -->
   </owl-carousel-o>
                  <!-- </div> -->
               </div>

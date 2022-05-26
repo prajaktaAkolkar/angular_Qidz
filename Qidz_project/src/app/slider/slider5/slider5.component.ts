@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import sData from '../slider4/data.json';
+
+
 @Component({
   selector: 'app-slider5',
   templateUrl: './slider5.component.html',
@@ -11,7 +14,7 @@ export class Slider5Component implements OnInit {
 
   ngOnInit(): void {
   }
-
+slider5 = sData;
 
   bannerSlider: OwlOptions = {
     loop: true,
