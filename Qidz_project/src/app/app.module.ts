@@ -55,6 +55,7 @@ import { KidsInfoSectionComponent } from './kids/kids-info-section/kids-info-sec
 import { FavouriteComponent } from './favourite/favourite.component';
 import { FavMiddleContentComponent } from './favourite/fav-middle-content/fav-middle-content.component';
 import { FavActivitesComponent } from './favourite/fav-activites/fav-activites.component';
+import { RegisterationComponent } from './registeration/registeration.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -108,7 +109,8 @@ import { FavActivitesComponent } from './favourite/fav-activites/fav-activites.c
     KidsInfoSectionComponent,
     FavouriteComponent,
     FavMiddleContentComponent,
-    FavActivitesComponent
+    FavActivitesComponent,
+    RegisterationComponent
   ],
   imports: [
     BrowserModule,

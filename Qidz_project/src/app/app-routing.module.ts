@@ -10,6 +10,8 @@ import {EditProfileComponent} from './edit-profile/edit-profile.component';
 import {ScorePointsComponent} from './score-points/score-points.component';
 import {KidsComponent} from './kids/kids.component';
 import {FavouriteComponent} from './favourite/favourite.component';
+import {RegisterationComponent} from './registeration/registeration.component';
+
 const routes: Routes = [
   {
     
@@ -36,6 +38,9 @@ const routes: Routes = [
    },
    {
      path : 'Favourite' , component : FavouriteComponent
+   },
+   {
+     path :'register' ,component : RegisterationComponent
    },
   {
     
