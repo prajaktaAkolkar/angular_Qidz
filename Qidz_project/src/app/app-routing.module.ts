@@ -9,6 +9,7 @@ import {UserProfileComponent} from './user-profile/user-profile.component';
 import {EditProfileComponent} from './edit-profile/edit-profile.component';
 import {ScorePointsComponent} from './score-points/score-points.component';
 import {KidsComponent} from './kids/kids.component';
+import {FavouriteComponent} from './favourite/favourite.component';
 const routes: Routes = [
   {
     
@@ -32,6 +33,9 @@ const routes: Routes = [
    },
    {
      path : 'kids' , component : KidsComponent
+   },
+   {
+     path : 'Favourite' , component : FavouriteComponent
    },
   {
     

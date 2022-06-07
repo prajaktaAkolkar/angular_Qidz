@@ -52,6 +52,9 @@ import { HowToScoreContentComponent } from './score-points/how-to-score-content/
 import { KidsComponent } from './kids/kids.component';
 import { KidsMiddleSectionComponent } from './kids/kids-middle-section/kids-middle-section.component';
 import { KidsInfoSectionComponent } from './kids/kids-info-section/kids-info-section.component';
+import { FavouriteComponent } from './favourite/favourite.component';
+import { FavMiddleContentComponent } from './favourite/fav-middle-content/fav-middle-content.component';
+import { FavActivitesComponent } from './favourite/fav-activites/fav-activites.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -102,7 +105,10 @@ import { KidsInfoSectionComponent } from './kids/kids-info-section/kids-info-sec
     HowToScoreContentComponent,
     KidsComponent,
     KidsMiddleSectionComponent,
-    KidsInfoSectionComponent
+    KidsInfoSectionComponent,
+    FavouriteComponent,
+    FavMiddleContentComponent,
+    FavActivitesComponent
   ],
   imports: [
     BrowserModule,
