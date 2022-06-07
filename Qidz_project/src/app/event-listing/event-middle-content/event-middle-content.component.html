@@ -15,16 +15,18 @@
                    <div class="event-list-category">
                      <div class="events_main_heading"><h2> Party &amp; Playdate Ideas &amp; Supplies</h2></div>
                      <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4" *ngFor = "let eVal of eData ; let i = index">
+                        
                            <div class="event-list-item">
                               <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
+                                 
+                                 <img src={{eVal.img}}>
                               </div>
                               <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
+                                 <h3>{{eVal.name}}</h3>
                                  <div class="event_btm_des">
                                   <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
+                                     <span class="small_text">{{eVal.text}}</span>
                                      <div class="review">
                                       <ul>
                                         <li><i class="fas fa-star"></i></li>
@@ -36,232 +38,8 @@
                                     </div>
                                   </div>
                                   <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
-                                  </div>
-                                  <div class="event_list_btn">
-                                    <button type="button" class="btn bn_btn">Book Now!</button>
-                                     <button type="button" class="btn rm_btn">Read More</button>
-                                  </div>
-                               </div>
-                              </div>
-                           </div>
-                        </div>
-                         <div class="col-md-4">
-                           <div class="event-list-item">
-                              <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
-                              </div>
-                              <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
-                                 <div class="event_btm_des">
-                                  <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
-                                     <div class="review">
-                                      <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
-                                  </div>
-                                  <div class="event_list_btn">
-                                    <button type="button" class="btn bn_btn">Book Now!</button>
-                                     <button type="button" class="btn rm_btn">Read More</button>
-                                  </div>
-                               </div>
-                              </div>
-                           </div>
-                        </div>
-                         <div class="col-md-4">
-                           <div class="event-list-item">
-                              <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
-                              </div>
-                              <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
-                                 <div class="event_btm_des">
-                                  <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
-                                     <div class="review">
-                                      <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
-                                  </div>
-                                  <div class="event_list_btn">
-                                    <button type="button" class="btn bn_btn">Book Now!</button>
-                                     <button type="button" class="btn rm_btn">Read More</button>
-                                  </div>
-                               </div>
-                              </div>
-                           </div>
-                        </div>
-                         <div class="col-md-4">
-                           <div class="event-list-item">
-                              <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
-                              </div>
-                              <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
-                                 <div class="event_btm_des">
-                                  <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
-                                     <div class="review">
-                                      <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
-                                  </div>
-                                  <div class="event_list_btn">
-                                    <button type="button" class="btn bn_btn">Book Now!</button>
-                                     <button type="button" class="btn rm_btn">Read More</button>
-                                  </div>
-                               </div>
-                              </div>
-                           </div>
-                        </div>
-                         <div class="col-md-4">
-                           <div class="event-list-item">
-                              <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
-                              </div>
-                              <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
-                                 <div class="event_btm_des">
-                                  <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
-                                     <div class="review">
-                                      <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
-                                  </div>
-                                  <div class="event_list_btn">
-                                    <button type="button" class="btn bn_btn">Book Now!</button>
-                                     <button type="button" class="btn rm_btn">Read More</button>
-                                  </div>
-                               </div>
-                              </div>
-                           </div>
-                        </div>
-                         <div class="col-md-4">
-                           <div class="event-list-item">
-                              <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
-                              </div>
-                              <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
-                                 <div class="event_btm_des">
-                                  <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
-                                     <div class="review">
-                                      <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
-                                  </div>
-                                  <div class="event_list_btn">
-                                    <button type="button" class="btn bn_btn">Book Now!</button>
-                                     <button type="button" class="btn rm_btn">Read More</button>
-                                  </div>
-                               </div>
-                              </div>
-                           </div>
-                        </div>
-                         <div class="col-md-4">
-                           <div class="event-list-item">
-                              <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
-                              </div>
-                              <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
-                                 <div class="event_btm_des">
-                                  <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
-                                     <div class="review">
-                                      <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
-                                  </div>
-                                  <div class="event_list_btn">
-                                    <button type="button" class="btn bn_btn">Book Now!</button>
-                                     <button type="button" class="btn rm_btn">Read More</button>
-                                  </div>
-                               </div>
-                              </div>
-                           </div>
-                        </div>
-                         <div class="col-md-4">
-                           <div class="event-list-item">
-                              <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
-                              </div>
-                              <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
-                                 <div class="event_btm_des">
-                                  <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
-                                     <div class="review">
-                                      <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
+                                     <span class="dis_price">{{eVal.code}}</span>
+                                     <span class="main_price">{{eVal.mCode}}</span>
                                   </div>
                                   <div class="event_list_btn">
                                     <button type="button" class="btn bn_btn">Book Now!</button>
@@ -277,7 +55,39 @@
                     <div class="event-list-category">
                      <div class="events_main_heading"><h2> Kids at Home? DIY Free Fun Ideas</h2></div>
                      <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4" *ngFor = "let eVal of eData ; let i = index">
+                           <div class="event-list-item" *ngIf="i < 6">
+                              <div class="event-img">
+                                 <img src={{eVal.img}}>
+                              </div>
+                              <div class="event-list-detail">
+                                 <h3>{{eVal.name}}</h3>
+                                 <div class="event_btm_des">
+                                  <div class="event_list_cat_section">
+                                     <span class="small_text">{{eVal.text}}</span>
+                                     <div class="review">
+                                      <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="event_list_price">
+                                     <span class="dis_price">{{eVal.code}}</span>
+                                     <span class="main_price">{{eVal.mCode}}</span>
+                                  </div>
+                                  <div class="event_list_btn">
+                                    <button type="button" class="btn bn_btn">Book Now!</button>
+                                     <button type="button" class="btn rm_btn">Read More</button>
+                                  </div>
+                               </div>
+                              </div>
+                           </div>
+                        </div>
+                         <!-- <div class="col-md-4">
                            <div class="event-list-item">
                               <div class="event-img">
                                  <img src="assets/img/listing/img_01.jpg">
@@ -308,8 +118,8 @@
                                </div>
                               </div>
                            </div>
-                        </div>
-                         <div class="col-md-4">
+                        </div> -->
+                         <!-- <div class="col-md-4">
                            <div class="event-list-item">
                               <div class="event-img">
                                  <img src="assets/img/listing/img_01.jpg">
@@ -340,8 +150,8 @@
                                </div>
                               </div>
                            </div>
-                        </div>
-                         <div class="col-md-4">
+                        </div> -->
+                         <!-- <div class="col-md-4">
                            <div class="event-list-item">
                               <div class="event-img">
                                  <img src="assets/img/listing/img_01.jpg">
@@ -372,8 +182,8 @@
                                </div>
                               </div>
                            </div>
-                        </div>
-                         <div class="col-md-4">
+                        </div> -->
+                         <!-- <div class="col-md-4">
                            <div class="event-list-item">
                               <div class="event-img">
                                  <img src="assets/img/listing/img_01.jpg">
@@ -404,8 +214,8 @@
                                </div>
                               </div>
                            </div>
-                        </div>
-                         <div class="col-md-4">
+                        </div> -->
+                         <!-- <div class="col-md-4">
                            <div class="event-list-item">
                               <div class="event-img">
                                  <img src="assets/img/listing/img_01.jpg">
@@ -436,39 +246,7 @@
                                </div>
                               </div>
                            </div>
-                        </div>
-                         <div class="col-md-4">
-                           <div class="event-list-item">
-                              <div class="event-img">
-                                 <img src="assets/img/listing/img_01.jpg">
-                              </div>
-                              <div class="event-list-detail">
-                                 <h3>Party Packages by Heartmade Events</h3>
-                                 <div class="event_btm_des">
-                                  <div class="event_list_cat_section">
-                                     <span class="small_text">Kidzania</span>
-                                     <div class="review">
-                                      <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <div class="event_list_price">
-                                     <span class="dis_price">AED 100</span>
-                                     <span class="main_price">AED 75</span>
-                                  </div>
-                                  <div class="event_list_btn">
-                                    <button type="button" class="btn bn_btn">Book Now!</button>
-                                     <button type="button" class="btn rm_btn">Read More</button>
-                                  </div>
-                               </div>
-                              </div>
-                           </div>
-                        </div>
+                        </div> -->
                         <div class="show_more_btn">
                            <button type="button" class="see_more_btn">See More</button>
                          </div>

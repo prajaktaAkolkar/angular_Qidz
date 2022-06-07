@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import aData from "./activity-data.json";
 @Component({
   selector: 'app-event-activity',
   templateUrl: './event-activity.component.html',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EventActivityComponent implements OnInit {
 
   constructor() { }
-
+ aVal = aData;
   ngOnInit(): void {
   }
 

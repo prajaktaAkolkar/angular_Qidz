@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "img": "assets/img/event-dt/first_event_img.png",
+      "name": "Kids World Nursery @ Al Nahda",
+      "text": "Sharjah, Al Nahda"
+    },
+    {
+        "id": 2,
+        "img": "assets/img/event-dt/first_event_img.png",
+        "name": "Kids World Nursery @ Al Nahda",
+        "text": "Sharjah, Al Nahda"
+      },
+      {
+        "id": 3,
+        "img": "assets/img/event-dt/first_event_img.png",
+        "name": "Kids World Nursery @ Al Nahda",
+        "text": "Sharjah, Al Nahda"
+      }
+  ]

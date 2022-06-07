@@ -3,15 +3,16 @@
   <section id="blog-section" class="blog-section">
     <div class="container">
        <div class="blog_section_outer">
-          <div class="blog_section_inner" *ngFor = "let val1 of slider6">
+          <div class="blog_section_inner" >
           <div class="row">
             <div class="col-md-8">
             <div class="events_main_heading">
               <h1>More to Explore and Learn</h1>
               <a href="#">See All</a>
             </div>
-            <div class="blog-posts-item">
-              <div class="blog-posts-inner" >
+            <div class="blog-posts-item"  *ngFor = "let val1 of slider6 ;let i = index;"  >
+             
+              <div class="blog-posts-inner" *ngIf="i >= 1">
                 <div class="blog_image">
                 <img src={{val1.img}} alt="blog_01">
                 <span class="blog_cat">Adventure</span>
@@ -22,9 +23,9 @@
                   <button type="button" class="btn blog_rm">Read More</button>
                 </div>
               </div>
+              <div class="divider" *ngIf="i == 1"></div>
             </div>
-            <div class="divider"></div>
-             <div class="blog-posts-item">
+             <!-- <div class="blog-posts-item">
               <div class="blog-posts-inner">
                 <div class="blog_image">
                 <img src={{val1.img}} alt="blog_01">
@@ -36,7 +37,7 @@
                   <button type="button" class="btn blog_rm">Read More</button>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="col-md-4">
             <div class="post-tab">
@@ -63,7 +64,7 @@
                   <!-- Note: New place of `data-parent` -->
                   <div id="collapse-A" class="collapse show" data-parent="#content" role="tabpanel" aria-labelledby="heading-A">
                       <div class="card-body widget_blog" >
-                         <div class="blog-posts-item">
+                         <div class="blog-posts-item" *ngFor = "let val1 of slider6">
                             <div class="blog-posts-inner" >
                               <div class="blog_image">
                               <img class="img-responsive" src={{val1.img}} alt="blog_01">
@@ -74,7 +75,7 @@
                               </div>
                             </div>
                           </div>
-                            <div class="blog-posts-item">
+                            <!-- <div class="blog-posts-item">
                             <div class="blog-posts-inner">
                               <div class="blog_image">
                               <img class="img-responsive" src={{val1.img}} alt="blog_02">
@@ -84,8 +85,8 @@
                                 <p>{{val1.date}}</p>
                               </div>
                             </div>
-                          </div>
-                            <div class="blog-posts-item">
+                          </div> -->
+                            <!-- <div class="blog-posts-item">
                             <div class="blog-posts-inner">
                               <div class="blog_image">
                               <img class="img-responsive" src={{val1.img}} alt="blog_03">
@@ -95,7 +96,7 @@
                                 <p>{{val1.date}}</p>
                               </div>
                             </div>
-                          </div>
+                          </div> -->
                       </div>
                   </div>
               </div>

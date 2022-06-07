@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import FavData from './fav-data.json';
 @Component({
   selector: 'app-fav-activites',
   templateUrl: './fav-activites.component.html',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FavActivitesComponent implements OnInit {
 
   constructor() { }
-
+  fData = FavData;
   ngOnInit(): void {
   }
 

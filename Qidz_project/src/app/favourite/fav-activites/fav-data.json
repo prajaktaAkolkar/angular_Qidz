@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1",
+        "name" : "Party Packages by Heartmade Events",
+        "img" : "assets/img/listing/img_01.jpg",
+        "text" : "Kidzania",
+        "dPrice" : "AED 100" ,
+        "mPrice" : "AED 75"
+    },
+    {
+        "id" : "2",
+        "name" : "Party Packages by Heartmade Events",
+        "img" : "assets/img/listing/img_01.jpg",
+        "text" : "Kidzania",
+        "dPrice" : "AED 100" ,
+        "mPrice" : "AED 75"
+    },
+    {
+        "id" : "3",
+        "name" : "Party Packages by Heartmade Events",
+        "img" : "assets/img/listing/img_01.jpg",
+        "text" : "Kidzania",
+        "dPrice" : "AED 100" ,
+        "mPrice" : "AED 75"
+    }
+]

@@ -32,6 +32,7 @@ export class Slider4Component implements OnInit {
     pullDrag: true,
     dots: false,
     navSpeed: 700,
+    margin : 20,
     autoplay:true,
     autoplayTimeout:1000,
     autoplayHoverPause:true,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import eventData from './event-data.json';
 
 @Component({
   selector: 'app-event-middle-content',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class EventMiddleContentComponent implements OnInit {
 
   constructor() { }
-
+ eData = eventData;
   ngOnInit(): void {
   }
 

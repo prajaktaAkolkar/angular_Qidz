@@ -1,0 +1,18 @@
+[
+    {
+        "id" : "1",
+        "name" :"Caterpillar clup (6 weeks - 6 months)",
+        "tag" : "Buy this deal now!",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."  ,
+        "dPrice" : "AED 100",
+        "mPrice" :"AED 75"
+    },
+    {
+        "id" : "2",
+        "name" :"Caterpillar clup (6 weeks - 6 months)",
+        "tag" : "Buy this deal now!",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. "  ,
+        "dPrice" : "AED 100",
+        "mPrice" :"AED 75"
+    }
+]

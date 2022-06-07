@@ -35,6 +35,7 @@ slider3  = sData;;
     autoplayTimeout:1000,
     autoplayHoverPause:true,
     navSpeed: 700,
+    margin :20,
     navText: ['', ''],
     responsive: {
       0: {

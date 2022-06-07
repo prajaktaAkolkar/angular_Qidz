@@ -23,6 +23,7 @@ export class Slider1Component implements OnInit {
     autoplay:true,
     autoplayTimeout:1000,
     autoplayHoverPause:true,
+    margin :20,
     navText: ['', ''],
     responsive: {
       0: {
