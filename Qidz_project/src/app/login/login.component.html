@@ -1,0 +1,26 @@
+<div class="container">
+    <form class="border border-dark" [formGroup] ="login" (ngSubmit)="submit()">
+        <div class="row g 0">
+            <div class="col text-center p-2 mb-3 bg-light">
+                <span class="fs-3">Login</span>
+            </div>
+        </div>
+        <div class="mb-3 p-3">
+            <label for="email" class="form-label">Email Address:</label>
+           <input type="text"  class="form-control" formControlName="email" name="email" placeholder="Enter Email" id="email">
+     <small *ngIf="isSubmmit && f['email'].errors" class="text-danger">Email Required</small>
+        </div>
+        <div class="mb-3 p-3">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" formControlName="password" class="form-control" placeholder="Enter Password" id="password" name="password">
+           <small *ngIf="isSubmmit && f['password'].errors" class="text-danger">Password Required</small>
+        </div>
+        <div class="row">
+            <div class="col-6 offset-3 mb-3">
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary"  >Login</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

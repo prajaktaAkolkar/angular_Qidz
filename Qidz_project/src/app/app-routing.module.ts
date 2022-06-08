@@ -11,7 +11,7 @@ import {ScorePointsComponent} from './score-points/score-points.component';
 import {KidsComponent} from './kids/kids.component';
 import {FavouriteComponent} from './favourite/favourite.component';
 import {RegisterationComponent} from './registeration/registeration.component';
-
+import {LoginComponent} from './login/login.component';
 const routes: Routes = [
   {
     
@@ -42,6 +42,9 @@ const routes: Routes = [
    {
      path :'register' ,component : RegisterationComponent
    },
+   {
+    path :'login' ,component : LoginComponent
+  },
   {
     
     path: '', component : HeroBgComponent

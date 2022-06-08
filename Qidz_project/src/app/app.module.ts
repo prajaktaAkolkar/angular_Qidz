@@ -56,6 +56,9 @@ import { FavouriteComponent } from './favourite/favourite.component';
 import { FavMiddleContentComponent } from './favourite/fav-middle-content/fav-middle-content.component';
 import { FavActivitesComponent } from './favourite/fav-activites/fav-activites.component';
 import { RegisterationComponent } from './registeration/registeration.component';
+import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component'; 
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -110,7 +113,8 @@ import { RegisterationComponent } from './registeration/registeration.component'
     FavouriteComponent,
     FavMiddleContentComponent,
     FavActivitesComponent,
-    RegisterationComponent
+    RegisterationComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -118,7 +122,9 @@ import { RegisterationComponent } from './registeration/registeration.component'
     CarouselModule,
     BrowserAnimationsModule,
     CarouselModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
