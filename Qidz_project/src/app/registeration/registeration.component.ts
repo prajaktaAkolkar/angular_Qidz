@@ -23,7 +23,7 @@ export class RegisterationComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.register.controls['fname'].setValue('Daksh')
+    // this.register.controls['fname'].setValue('Daksh')
     
   }
 
