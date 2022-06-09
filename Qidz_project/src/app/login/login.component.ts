@@ -13,9 +13,9 @@ isSubmmit:any = false;
 
   constructor(private formBuilder:FormBuilder) {
      this.login = this.formBuilder.group({
-      email:["",Validators.required],
+      email:["",([Validators.required, Validators.email])],
       
-      password:["",Validators.compose([Validators.required, Validators.maxLength(6)])]
+      password:["",Validators.compose([Validators.required])]
     
      }) 
    }

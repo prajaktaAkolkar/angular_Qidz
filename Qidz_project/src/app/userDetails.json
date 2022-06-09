@@ -1,0 +1,13 @@
+{
+    "details" :[
+        {
+            "fname":"this.register.value.fname",
+             "lname" : "this.register.value.lname",
+             "email":"this.register.value.email",
+             "phoneNumber":"this.register.value.phonenumber",
+             "gender":"this.register.value.gender",
+             "password":"this.register.value.password"
+           }
+    ]
+    
+}
