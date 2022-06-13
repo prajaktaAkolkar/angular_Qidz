@@ -24,14 +24,11 @@ export class RegisterationComponent implements OnInit {
    gender : ['',Validators.required],
    pwd : ['',([Validators.required,Validators.pattern('(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{8,}')])],
    rpwd : ['', Validators.required]
-    },{
-    // Validators:this.Mustmatch('pwd','rpwd')
     }
     )
   }
 
   ngOnInit(): void {
-    // this.register.controls['fname'].setValue('Daksh')
     
   }
 
@@ -62,12 +59,10 @@ submit(){
 }
 
 Mustmatch(){
- 
  console.log(this.register.controls['pwd'].value);
   if(this.register.controls['pwd'].value != this.register.controls['rpwd'].value ){
     this.notMatch = true;
   }else{
-  
     this.notMatch = false;
   }
 }
